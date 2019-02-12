@@ -1,6 +1,5 @@
 # Jobs Portal Simple Website Example Using Laravel + Vue.js
 
-![alt text](https://ibb.co/27cpWks)
 
 ## Project Summary 
 This is an example of a project being made by Laravel + Vue
