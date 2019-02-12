@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800&subset=arabic');
+@import '~bootstrap/scss/bootstrap';
+$fa-font-path: "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import 'navbar';
+
+/**
+ * Var
+ */
+ $jobBlue: #007bff;
+ $s_jobBlue: #004085;
+// ------------
+
+body{
+    font-family: 'Tajawal', sans-serif;
+    padding-top: 90px;
+    padding-bottom: 65px;
+}
+
+.rtl {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.ltr{
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.mg-top-25 {
+    margin-top: 15px;
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+.search-textBox {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #CCCCCC;
+    border-radius: .5rem;
+    width: 50%;
+    font-size: 1.6rem;
+    outline: none;
+    transition: ease-in .1s;
+
+    &:focus{
+        border-color: $jobBlue;
+        color: #000;
+    }
+}
+
+.job-card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 12px;
+    background-color: #EEEEEE;
+    border: 3px solid #FFFFFF;
+    border-radius: .35rem;
+    transition: ease-in-out .1s;
+
+    &:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+    }
+
+    h4 > span {
+        padding: 4px;
+        font-size: 15px;
+        background-color: #CCCCCC;
+        border-radius: .25rem;
+    }
+
+    .btn-job-info {
+        text-decoration: none;
+        position: inherit;
+        top: 10px;
+        padding: 10px;
+        background-color: $jobBlue;
+        color: #FFFFFF;
+        border: 1px solid $jobBlue;
+        border-radius: 0.25rem;
+        transition: ease-out .3s;
+
+        &:hover{
+            background-color: $s_jobBlue;
+            border-color: $s_jobBlue;
+        }
+
+        &:active{
+            background-color: $s_jobBlue;
+            border-color: $s_jobBlue;
+        }
+    }
+}
+
+.category-card{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: .30rem;
+    background-color: #EEE;
+    transition: ease-out .4s;
+    min-width: 300px;
+    min-height: 300px;
+
+
+    &:hover{
+        margin: 1px;
+        border: 1px solid #EEE;
+        color: #FFF;
+        background-color: $jobBlue;
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+    }
+
+    i {
+        margin-top: 15%;
+    }
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    &:hover{
+        background-color: #383d41;
+        border-color: #383d41;
+    }
+    &:active{
+        background-color: #383d41;
+        border-color: #383d41;
+    }
+}
+
+.fotr {
+    margin-top: 20px;
+    border-top: 1px solid #CCC;
+    padding: 13px;
+    text-align: center !important;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+}
