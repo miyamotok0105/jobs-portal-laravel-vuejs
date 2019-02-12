@@ -1,5 +1,7 @@
 # Jobs Portal Simple Website Example Using Laravel + Vue.js
 
+![alt text](https://ibb.co/27cpWks)
+
 ## Project Summary 
 This is an example of a project being made by Laravel + Vue
 This project's main task is to display the jobs that are put by the companies to the visitors and the classification of jobs by geographical location and by type and type
