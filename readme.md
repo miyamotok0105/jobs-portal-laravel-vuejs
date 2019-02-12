@@ -7,18 +7,18 @@ The site can be manage by an unlimited number of managers
 
 ## Installation 
 * Clone or Download the Repo and `cd` into it
-* Run This Command :`composer install `
+* Run This Command : `composer install `
 * Rename `.env.example` File to `.env`
 * `php artisan key:generate`
 * Set Your Database Info into the `.env` File 
-* Run This Command :`php artisan migrate`
-* Run This Command :`php artisan db:seed`
-* Run This Command :`npm install`
-* Run This Command :`npm run dev`
-* Run This Command :`php artisan serve`
+* Run This Command : `php artisan migrate`
+* Run This Command : `php artisan db:seed`
+* Run This Command : `npm install`
+* Run This Command : `npm run dev`
+* Run This Command : `php artisan serve`
 * Now open a new window in your browser and paste the following address: `http://127.0.0.1:8000/`
 * To Open Dashboard Visit `http://127.0.0.1:8000/dashboard`
-* Login to Dashboard Use Email:`admin@admin.com` - Password: `123456`
+* Login to Dashboard Use Email: `admin@admin.com` and Password: `123456`
 
 ## Tools
 * [AdminLTE](https://adminlte.io/themes/dev/AdminLTE/index.html) - Free Dashboard Template
