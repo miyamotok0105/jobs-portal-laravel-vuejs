@@ -56380,7 +56380,7 @@ var dashboard = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Barq Moath\Desktop\Jobs Portal\jobs-portal\resources\js\dashboard\dashboard.js */"./resources/js/dashboard/dashboard.js");
+module.exports = __webpack_require__(/*! /var/www/resources/js/dashboard/dashboard.js */"./resources/js/dashboard/dashboard.js");
 
 
 /***/ })

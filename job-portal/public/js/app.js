@@ -48564,9 +48564,9 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Barq Moath\Desktop\Jobs Portal\jobs-portal\resources\js\app\app.js */"./resources/js/app/app.js");
-__webpack_require__(/*! C:\Users\Barq Moath\Desktop\Jobs Portal\jobs-portal\resources\sass\app\app.scss */"./resources/sass/app/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\Barq Moath\Desktop\Jobs Portal\jobs-portal\resources\sass\dashboard\dashboard.scss */"./resources/sass/dashboard/dashboard.scss");
+__webpack_require__(/*! /var/www/resources/js/app/app.js */"./resources/js/app/app.js");
+__webpack_require__(/*! /var/www/resources/sass/app/app.scss */"./resources/sass/app/app.scss");
+module.exports = __webpack_require__(/*! /var/www/resources/sass/dashboard/dashboard.scss */"./resources/sass/dashboard/dashboard.scss");
 
 
 /***/ })

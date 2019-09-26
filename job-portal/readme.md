@@ -23,35 +23,3 @@ The site can be manage by an unlimited number of managers
 
 ## Tools
 * [AdminLTE](https://adminlte.io/themes/dev/AdminLTE/index.html) - Free Dashboard Template
-
-
-## Installation(Docker version)
-
-
-```
-bash etc/run.sh
-
-bash dockup.sh
-
-bash dockdown.sh
-```
-
-## Command memo
-
-
-```
-cd laradock
-
-docker-compose exec workspace bash
-
-docker-compose exec mysql bash
-
-apt-get update
-
-mysql -u default -p
-secret
-show databases;
-
-```
-
-
