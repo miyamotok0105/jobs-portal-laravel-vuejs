@@ -8,8 +8,8 @@ Route::group(['middleware' => 'cors'],function(){
     Route::get('/', 'App\HomeController@index')->name('home');
     Route::get('/categories','App\HomeController@categories')->name('app.categories');
     Route::get('/locations','App\HomeController@locations')->name('app.locations');
-    Route::get('/job/{jobID}','App\BrowseCOntroller@job')->name('browse.job');
-    Route::get('/jobs-browse/{by}','App\BrowseCOntroller@jobsBrowse')->name('browse');
+    Route::get('/job/{jobID}','App\BrowseController@job')->name('browse.job');
+    Route::get('/jobs-browse/{by}','App\BrowseController@jobsBrowse')->name('browse');
 });
 
 

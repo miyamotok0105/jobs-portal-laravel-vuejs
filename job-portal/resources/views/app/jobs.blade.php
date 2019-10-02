@@ -1,11 +1,11 @@
 @extends('layouts.app')
-@section('title','الوظائف')
+@section('title','機能')
 
 @section('content')
     <div class="container">
         <div class="rtl mg-top-25">
             @if(isset($_GET['searchText']))
-                <h1>نتائج البحث عن : @php echo $_GET['searchText']; @endphp</h1>
+                <h1>の検索結果: @php echo $_GET['searchText']; @endphp</h1>
             @else
                 <h1>{{$job->name}}</h1>
             @endif
@@ -22,14 +22,14 @@
                                 <p> <i class="fa fa-cube"></i> {{$jb->category->name}} <i class="fa fa-compass"></i> {{$jb->location->name}} <i class="fa fa-building"></i> {{$jb->company->name}} <i class="fa fa-clock"></i> {{ \Carbon\Carbon::parse($jb->created_at)->timezone('Asia/Baghdad')->format('F, d, Y')}}</p>
                             </div>
                             <div class="col-sm-3 text-center">
-                                <a href="{{ route('browse.job',['jobID' => $jb->id]) }}" class="btn-job-info">عرض التفاصيل</a>
+                                <a href="{{ route('browse.job',['jobID' => $jb->id]) }}" class="btn-job-info">詳細を見る/a>
                             </div>
                         </div>
                     </div>
                 </div>
                 @empty
                     <center>
-                        <h2>لاتوجد وظائف تطابق نتائج بحثك</h2>
+                        <h2>検索結果に一致する求人はありません</h2>
                     </center>
                 @endforelse
                 @else
@@ -42,14 +42,14 @@
                                 <p> <i class="fa fa-cube"></i> {{$jb->category->name}} <i class="fa fa-compass"></i> {{$jb->location->name}} <i class="fa fa-building"></i> {{$jb->company->name}} <i class="fa fa-clock"></i> {{ \Carbon\Carbon::parse($jb->created_at)->timezone('Asia/Baghdad')->format('F, d, Y')}}</p>
                             </div>
                             <div class="col-sm-3 text-center">
-                                <a href="{{ route('browse.job',['jobID' => $jb->id]) }}" class="btn-job-info">عرض التفاصيل</a>
+                                <a href="{{ route('browse.job',['jobID' => $jb->id]) }}" class="btn-job-info">詳細を見る</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 @empty
                     <center>
-                        <h2>لاتوجد وظائف بعد</h2>
+                        <h2>まだ仕事がありません</h2>
                     </center>
                 @endforelse
                 @endif
